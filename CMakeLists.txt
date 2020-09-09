@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 project(kata)
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_BUILD_TYPE Debug)
 
 set(PROJECT_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 set(PROJECT_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src)

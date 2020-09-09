@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.in": "cmake",
+        "limits": "cpp"
+    }
+}

@@ -1,2 +1,2 @@
 add_executable(weatherParserUT weatherParserUT.cpp)
-target_link_libraries(weatherParserUT gtest_main)
+target_link_libraries(weatherParserUT gtest_main weatherParserObj)
