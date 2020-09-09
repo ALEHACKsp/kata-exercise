@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.12)
+
+project(kata)
+
+set(CMAKE_CXX_STANDARD 17)
+
+set(PROJECT_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
+set(PROJECT_SRC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+set(PROJECT_TEST ${CMAKE_CURRENT_SOURCE_DIR}/test)
+
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_subdirectory(src)
+
+add_subdirectory(googletest)
+add_subdirectory(test)
